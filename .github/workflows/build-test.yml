@@ -1,7 +1,6 @@
 name: deploy_dev
 on:
   workflow_dispatch:
-
 jobs:
   manual_deploy:
     runs-on: dev-html
