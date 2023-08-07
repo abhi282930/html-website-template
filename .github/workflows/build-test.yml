@@ -8,6 +8,6 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - run: cd /var/www/html/
-      - run: git -C /var/www/html/ pull origin devlopment
+      - run: git -C /var/www/html/ pull origin main
         env:
           CI: true
