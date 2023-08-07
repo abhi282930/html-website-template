@@ -6,7 +6,7 @@ jobs:
     runs-on: dev-html
     steps: 
       - uses: actions/checkout@v2
-      - run: cd /var/www/html/
-      - run: git -C /var/www/html/ pull origin main
+      - run: cd /var/www/html/html-website-template
+      - run: git -C /var/www/html/html-website-template pull origin main
         env:
           CI: true
