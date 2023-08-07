@@ -4,7 +4,7 @@ on:
 
 jobs:
   manual_deploy:
-    runs-on: dev-runner
+    runs-on: dev-html
     steps: 
       - uses: actions/checkout@v2
       - run: cd /var/www/html/
